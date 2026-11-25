@@ -14,6 +14,7 @@
       { id: 'payment', type: 'checks', th: 'รับชำระเงินแบบไหนบ้าง?', en: 'Which payment methods do you accept?', opts: [['เงินสด', 'Cash'], ['โอนเงิน / PromptPay', 'Bank transfer / PromptPay'], ['บัตรเครดิต', 'Credit card']] },
       { id: 'company', th: 'ชื่อบริษัทหรือชื่อผู้ประกอบการ และเลขที่ใบอนุญาต (ถ้ามี)', en: 'Company or operator name, and licence number if you have one.' },
       { id: 'domain', type: 'choice', th: 'ชอบชื่อเว็บไซต์ (โดเมน) แบบไหน?', en: 'Which website address (domain) do you prefer?', opts: [['thebeachboxaonang.com', 'thebeachboxaonang.com'], ['beachboxaonang.com', 'beachboxaonang.com'], ['beachboxhostel.com', 'beachboxhostel.com'], ['อื่น ๆ (เขียนในช่องถัดไป)', 'Something else (write it below)']] },
+      { id: 'thai_wording', th: 'ภาษาไทยในเว็บไซต์อ่านแล้วเป็นธรรมชาติไหม? ถ้ามีคำหรือประโยคไหนแปลก ช่วยบอกเราว่าอยู่หน้าไหน และควรแก้เป็นอะไร', en: 'Does the Thai on the website read naturally? If any word or sentence sounds odd, tell us which page and how it should read.' },
       { id: 'other', th: 'มีอะไรอยากบอกเพิ่มเติมไหม?', en: 'Anything else you would like to tell us?' }
     ],
     booking: [
