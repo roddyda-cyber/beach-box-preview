@@ -1,0 +1,29 @@
+/* Owner question layer styles. Deliberately outside every theme's palette so it reads as an annotation. */
+.q-slot,.q-bar{--qy:#fff4c2;--qy2:#ffe98a;--ql:#b98900;--qi:#3d3000;--qg:#6b5a1c;font-family:"Noto Sans Thai","Leelawadee UI","Sarabun",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55;letter-spacing:0;text-transform:none;text-align:left;font-style:normal;font-weight:400}
+.q-slot{display:grid;gap:12px;background:var(--qy);color:var(--qi);border:2px dashed var(--ql);border-radius:10px;padding:16px;margin:24px 0;max-width:760px;box-sizing:border-box;width:100%;min-width:0}
+.q-slot:empty{display:none}
+.q-off .q-slot{display:none}
+.q-slot *,.q-bar *{box-sizing:border-box;letter-spacing:0;text-transform:none}
+.q-head{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;border-bottom:1px solid var(--ql);padding-bottom:8px}
+.q-head .q-th{font-weight:700;font-size:17px}
+.q-th{display:block;color:var(--qi)}
+.q-en{display:block;color:var(--qg);font-size:13.5px;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.q-card{display:grid;gap:6px;background:#fffdf3;border:1px solid #e6d58a;border-radius:8px;padding:12px}
+.q-label{display:grid;gap:2px;font-weight:600}
+.q-label .q-en{font-weight:400}
+.q-card input[type=text],.q-card textarea{width:100%;font:inherit;font-size:16px;color:#1c1c1c;background:#fff;border:1.5px solid #c9b45a;border-radius:6px;padding:10px;min-width:0}
+.q-card textarea{resize:vertical}
+.q-card input:focus-visible,.q-card textarea:focus-visible,.q-bar-link:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
+.q-opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.q-opt{display:grid;grid-template-columns:auto 1fr;column-gap:8px;align-items:start;background:#fff;border:1.5px solid #c9b45a;border-radius:6px;padding:8px 10px;cursor:pointer}
+.q-opt input{width:20px;height:20px;margin:2px 0 0;grid-row:span 2;accent-color:#b98900}
+.q-opt .q-en{grid-column:2}
+.q-status{font-size:13px;color:var(--qg);min-height:1.2em}
+.q-status.ok{color:#1d6b2f;font-weight:600}
+.q-status.bad{color:#a11616;font-weight:600}
+.q-bar{background:var(--qy2);color:var(--qi);border-bottom:2px dashed var(--ql);padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;justify-content:space-between;position:relative;z-index:50}
+.q-bar-msg{flex:1 1 320px;min-width:0}
+.q-bar-msg .q-th{font-weight:600;font-size:15px}
+.q-bar-nav{display:flex;flex-wrap:wrap;gap:6px}
+.q-bar-link{font:600 14px/1.2 "Noto Sans Thai","Leelawadee UI",system-ui,sans-serif;color:var(--qi);background:#fffdf3;border:1.5px solid var(--ql);border-radius:999px;padding:7px 12px;text-decoration:none;cursor:pointer}
+.q-bar-link.on{background:var(--qi);color:#fff}

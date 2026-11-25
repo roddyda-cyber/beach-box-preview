@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>The Beach Box · เลือกดีไซน์ / Choose a design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap">
+<link rel="stylesheet" href="assets/q.css">
+<style>
+:root{--ink:#0d2f3a;--soft:#4a646d;--paper:#f4f8f7;--card:#fff;--line:#d3e0df;--sea:#127a8a;--sun:#ef7b22}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 "Noto Sans Thai","Leelawadee UI",system-ui,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+header{padding:28px 0 8px;display:flex;gap:16px;align-items:center}
+header img{width:84px;height:84px;border-radius:50%}
+h1{font:700 clamp(1.6rem,5vw,2.4rem)/1.15 "Bricolage Grotesque","Noto Sans Thai",sans-serif;margin:0}
+.en{display:block;color:var(--soft);font-size:.88em;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.intro{max-width:70ch;margin:14px 0 26px}
+.steps{margin:0 0 30px;padding:0;list-style:none;display:grid;gap:10px;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.steps li::before{content:counter(s);font:700 1.1rem/1 "Bricolage Grotesque",sans-serif;background:var(--ink);color:#fff;width:32px;height:32px;border-radius:50%;display:grid;place-items:center}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;align-content:start}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.card .in{padding:16px;display:grid;gap:10px}
+.letter{font:700 2.2rem/1 "Bricolage Grotesque",sans-serif}
+.a .letter{color:#c5282f}.b .letter{color:#0b4d5a}.c .letter{color:var(--sun)}
+h2{font:700 1.25rem/1.25 "Noto Sans Thai",sans-serif;margin:0}
+.go{display:flex;flex-wrap:wrap;gap:8px}
+.go a{font-weight:700;text-decoration:none;border-radius:999px;padding:9px 16px;border:2px solid var(--ink);color:var(--ink)}
+.go a.main{background:var(--ink);color:#fff}
+.go a:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.more{font-size:.85rem;color:var(--soft)}
+.more a{color:var(--sea);margin-right:8px}
+footer{margin:40px 0 60px;color:var(--soft);font-size:.9rem}
+@media (max-width:820px){.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="assets/img/logo.jpg" alt="The Beach Box">
+    <div>
+      <h1>เลือกดีไซน์เว็บไซต์ที่คุณชอบ<span class="en">Choose the website design you like</span></h1>
+    </div>
+  </header>
+
+  <p class="intro">เราทำตัวอย่างเว็บไซต์ของ The Beach Box ไว้ 3 แบบ เนื้อหาเหมือนกัน ต่างกันที่หน้าตา ลองเปิดดูทั้ง 3 แบบ แล้วบอกเราว่าชอบแบบไหน
+    <span class="en">We made three sample websites for The Beach Box. Same content, three different looks. Open all three, then tell us which one you like.</span></p>
+
+  <ol class="steps">
+    <li><span>เปิดดูดีไซน์ A, B และ C<span class="en">Open designs A, B and C.</span></span></li>
+    <li><span>ในแต่ละหน้าจะมีกรอบสีเหลืองพร้อมคำถาม พิมพ์คำตอบเป็นภาษาไทยได้เลย คำตอบจะบันทึกอัตโนมัติ ตอบครั้งเดียวพอ ไม่ต้องตอบซ้ำทุกดีไซน์<span class="en">Each page has yellow boxes with questions. Type your answers in Thai. They save automatically. Answer once; no need to repeat for every design.</span></span></li>
+    <li><span>กลับมาที่หน้านี้ แล้วเลือกดีไซน์ที่ชอบด้านล่าง<span class="en">Come back to this page and pick your favourite below.</span></span></li>
+  </ol>
+
+  <div class="cards">
+    <article class="card a">
+      <img src="assets/img/prop-06.jpg" alt="">
+      <div class="in">
+        <span class="letter">A</span>
+        <h2>สีสันตู้คอนเทนเนอร์<span class="en">Painted Steel</span></h2>
+        <p>สีสดของตู้คอนเทนเนอร์ ตัวอักษรหนา ดูสนุกและโดดเด่น<span class="en">Bold container colours and strong lettering. Lively and striking.</span></p>
+        <div class="go"><a class="main" href="a/th/index.html">ดูแบบ A (ไทย)</a><a href="a/en/index.html">English</a></div>
+        <p class="more"><a href="a/de/index.html">Deutsch</a><a href="a/fr/index.html">Français</a><a href="a/sv/index.html">Svenska</a><a href="a/ru/index.html">Русский</a><a href="a/zh/index.html">中文</a></p>
+      </div>
+    </article>
+    <article class="card b">
+      <img src="assets/img/prop-08.jpg" alt="">
+      <div class="in">
+        <span class="letter">B</span>
+        <h2>เรียบหรู สบายตา<span class="en">Quiet Boutique</span></h2>
+        <p>เรียบ สงบ รูปใหญ่ พื้นที่ว่างเยอะ เหมือนโรงแรมบูติกเล็ก ๆ<span class="en">Calm and elegant, big photos and lots of space, like a small boutique hotel.</span></p>
+        <div class="go"><a class="main" href="b/th/index.html">ดูแบบ B (ไทย)</a><a href="b/en/index.html">English</a></div>
+        <p class="more"><a href="b/de/index.html">Deutsch</a><a href="b/fr/index.html">Français</a><a href="b/sv/index.html">Svenska</a><a href="b/ru/index.html">Русский</a><a href="b/zh/index.html">中文</a></p>
+      </div>
+    </article>
+    <article class="card c">
+      <img src="assets/img/beach-05.jpg" alt="">
+      <div class="in">
+        <span class="letter">C</span>
+        <h2>โปสเตอร์ท่องเที่ยวอันดามัน<span class="en">Andaman Travel Poster</span></h2>
+        <p>สีพระอาทิตย์ตกและทะเลจากโลโก้ รูปภาพเหมือนโปสการ์ด อบอุ่นเป็นกันเอง<span class="en">Sunset and sea colours from the logo, photos like postcards. Warm and friendly.</span></p>
+        <div class="go"><a class="main" href="c/th/index.html">ดูแบบ C (ไทย)</a><a href="c/en/index.html">English</a></div>
+        <p class="more"><a href="c/de/index.html">Deutsch</a><a href="c/fr/index.html">Français</a><a href="c/sv/index.html">Svenska</a><a href="c/ru/index.html">Русский</a><a href="c/zh/index.html">中文</a></p>
+      </div>
+    </article>
+  </div>
+
+  <div class="q-slot" data-q="general"></div>
+
+  <footer>ตัวอย่างดีไซน์ ยังไม่ใช่เว็บไซต์จริง กรุณาอย่าพิมพ์รหัสผ่านหรือข้อมูลธนาคารในช่องคำตอบ<span class="en">Design preview, not the live website. Please do not type passwords or bank details in the answer boxes.</span></footer>
+</div>
+<script src="assets/q.js"></script>
+</body>
+</html>
